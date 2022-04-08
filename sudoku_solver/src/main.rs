@@ -217,7 +217,7 @@ fn eliminate(sudo: &mut [[u8; 9]; 9], poss: &mut [[u16; 9]; 9])
 }
 
 fn main() {
-    let mut sudo  = [[0u8; 9]; 9];
+    let mut sudo = [[0u8; 9]; 9];
 
     // bitmap of possible values for each square
     // 0000 0000 0000 0000
